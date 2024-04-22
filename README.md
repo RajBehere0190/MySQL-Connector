@@ -22,6 +22,7 @@ Execute the script to read data from the CSV file and insert it into the MySQL d
 
 
 ****Requirements****
+
 1.Python 3.x
 
 2.mysql.connector library
