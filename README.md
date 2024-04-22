@@ -10,6 +10,7 @@ MySQL Database Interaction: Establishes a connection with a MySQL database (test
 Data Insertion: Processes each row of data from the CSV file and inserts it into the MySQL database using parameterized SQL queries to ensure secure and efficient data insertion.
 
 ****Usage****
+
 1.Setup:
 Ensure Python and the required libraries (mysql.connector and csv) are installed.
 Modify the script (csv_to_mysql_import.py) to specify your MySQL database credentials (host, user, password, database, port).
