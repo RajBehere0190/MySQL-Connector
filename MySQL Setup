@@ -1,1 +1,16 @@
+Open MySQL Command Line Client with Administrator Privileges:
 
+Right-click on the MySQL Command Line Client or MySQL Workbench shortcut.
+Select "Run as administrator" to open the command line tool with elevated privileges.
+This ensures that you have the necessary permissions to perform administrative tasks such as creating databases and tables.
+
+Run the follwing commannd and ensure to replace with proper details.
+--->GRANT ALL PRIVILEGES ON test.* TO 'root'@'localhost';
+
+
+Enter your MySQL root user password when prompted.
+This grants you access to the MySQL server with administrative privileges.
+
+Once this setup is completed follow the steps:
+1.Create a database.
+2.create a table inside the database with the alias or columns same as present in the csv file you created.
