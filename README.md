@@ -5,6 +5,7 @@ CSV to MySQL Import Script
 This Python script enables the import of data from CSV (Comma-Separated Values) files into a MySQL database. It utilizes the mysql.connector library to establish a connection with the MySQL database and inserts parsed data from the CSV file into a designated table.
 
 ---Key Features---
+
 CSV Data Parsing: Reads data from a specified CSV file (products.csv) and extracts relevant attributes such as SKU, item name, specifications, and price.
 MySQL Database Interaction: Establishes a connection with a MySQL database (test in this example) and inserts parsed data into a designated table (items).
 Data Insertion: Processes each row of data from the CSV file and inserts it into the MySQL database using parameterized SQL queries to ensure secure and efficient data insertion.
