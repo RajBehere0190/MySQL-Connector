@@ -20,6 +20,7 @@ Modify the script (csv_to_mysql_import.py) to specify your MySQL database creden
 Prepare a CSV file (products.csv) containing data organized in columns (e.g., SKU, item name, specifications, price).
 Running the Script:
 Execute the script to read data from the CSV file and insert it into the MySQL database.
+
 ------>python csv_to_mysql_import.py
 
 
