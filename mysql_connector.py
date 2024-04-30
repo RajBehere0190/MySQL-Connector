@@ -5,8 +5,8 @@ import csv
 connection = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='1234',
-    database='test',
+    password='1234',                 #password of yoour database
+    database='test',                 #name of database where you want to store the data
     port=3306
 )
 
